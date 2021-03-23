@@ -67,7 +67,7 @@ public class RootResource {
         }
 
         return attributes.entrySet().stream()
-                .map( e -> e.getKey() + "=" + e.getValue())
+                .map(e -> e.getKey() + "=" + e.getValue())
                 .collect(Collectors.joining(","));
     }
 }
